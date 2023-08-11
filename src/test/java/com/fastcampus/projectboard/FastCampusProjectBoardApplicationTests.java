@@ -8,6 +8,7 @@ class FastCampusProjectBoardApplicationTests {
 
 	@Test
 	void contextLoads() {
+		
 	}
 
 }
