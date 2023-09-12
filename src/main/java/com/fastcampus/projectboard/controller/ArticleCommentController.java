@@ -2,6 +2,7 @@ package com.fastcampus.projectboard.controller;
 
 
 import com.fastcampus.projectboard.dto.UserAccountDto;
+import com.fastcampus.projectboard.dto.request.ArticleCommentRequest;
 import com.fastcampus.projectboard.dto.request.ArticleRequest;
 import com.fastcampus.projectboard.service.ArticleCommentService;
 import lombok.RequiredArgsConstructor;
@@ -18,7 +19,7 @@ public class ArticleCommentController {
     private final ArticleCommentService articleCommentService;
 
     @PostMapping("/new")
-    public String postNewArticleComment(ArticleRequest.ArticleCommentRequest articleCommentRequest) {
+    public String postNewArticleComment(ArticleCommentRequest articleCommentRequest) {
         // TODO: 인증 정보를 넣어줘야 한다.
         articleCommentService.saveArticleComment(articleCommentRequest.toDto(UserAccountDto.of(
                 "uno", "pw", "uno@email.com", null, null
