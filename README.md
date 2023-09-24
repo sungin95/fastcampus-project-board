@@ -36,7 +36,7 @@ Spring Boot
 
 ## 데모 페이지
 
-(작성 중)
+ec2-52-78-150-51.ap-northeast-2.compute.amazonaws.com:8080
 
 ## 질문, 건의
 
