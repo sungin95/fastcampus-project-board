@@ -14,9 +14,9 @@ spring:
 #    username: uno
 #    password: thisisTESTpw!#%&
 #    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://random-question.cjpgt2zqye2x.ap-northeast-2.rds.amazonaws.com:3306/board
-    username: dlrkehrud
-    password: password!mysql
+    url: ${DB_URL}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     open-in-view: false
