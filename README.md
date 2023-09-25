@@ -44,3 +44,8 @@ ec2-52-78-150-51.ap-northeast-2.compute.amazonaws.com:8080
 
 * 질문: https://fastcampus.co.kr/qna/211368/1
 * 버그 리포트, 제안 사항: https://github.com/djkeh/fastcampus-project-board/issues
+
+## Reference
+
+* 유즈케이스 다이어그램: #4, https://viewer.diagrams.net/#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdjkeh%2Ffastcampus-project-board%2Fmain%2Fdocument%2Fuse-case.svg
+* API Endpoint 구글 시트: #1, https://docs.google.com/spreadsheets/d/1S2FW7_LlePGF95strSYFJEsEQKoyZ9nGHWM8wZgFmSU/edit?usp=sharing
