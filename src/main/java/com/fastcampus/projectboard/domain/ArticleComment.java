@@ -21,7 +21,6 @@ public class ArticleComment extends AuditingFields {
 
     @Setter
     @ManyToOne(optional = false)
-
     private Article article; // 게시글 ID
 
     @Setter
