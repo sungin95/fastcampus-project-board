@@ -30,5 +30,23 @@ spring:
     base-path: /api
     detection-strategy: annotated
   thymeleaf3.decoupled-logic: true
+  security:
+    oauth2:
+      client:
+        registration:
+          kakao:
+            client-id: ${KAKAO_OAUTH_CLIENT_ID}
+            client-secret: ${KAKAO_OAUTH_CLIENT_SECRET}
+            authorization-grant-type: authorization_code
+            redirect-uri: "{baseUrl}/login/oauth2/code/kakao"
+            client-authentication-method: POST
+        provider:
+          kakao:
+            authorization-uri: https://kauth.kakao.com/oauth/authorize # 인가 코드 받기 URL
+            token-uri: https://kauth.kakao.com/oauth/token # 토큰 받기 URL
+            user-info-uri: https://kapi.kakao.com/v2/user/me # 사용자 정보 가져오기 URL
+            user-name-attribute: id
+
+
 
 
