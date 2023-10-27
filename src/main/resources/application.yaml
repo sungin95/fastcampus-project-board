@@ -46,4 +46,12 @@ spring:
 
 
 
-
+---
+# TODO: H2로 바꾸어야 배포환경에서도 문제가 안 생긴다. 
+spring:
+  config.activate.on-profile: test
+  datasource:
+    url: jdbc:mysql://localhost:3306/admin
+    username: uno
+    password: thisisTESTpw!#%&
+    driver-class-name: com.mysql.cj.jdbc.Driver
