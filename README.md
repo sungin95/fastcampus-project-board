@@ -36,16 +36,9 @@ Spring Boot
 
 ## 데모 페이지
 
-http://ec2-52-78-150-51.ap-northeast-2.compute.amazonaws.com/
-
-## 질문, 건의
-
-프로젝트에 관해 궁금하신 점이나 건의 사항이 있으시다면 아래 항목을 이용해 주세요.
-
-* 질문: https://fastcampus.co.kr/qna/211368/1
-* 버그 리포트, 제안 사항: https://github.com/djkeh/fastcampus-project-board/issues
+https://43.201.67.85.nip.io
 
 ## Reference
 
-* 유즈케이스 다이어그램: [#4](https://github.com/djkeh/fastcampus-project-board/issues/4), https://viewer.diagrams.net/#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdjkeh%2Ffastcampus-project-board%2Fmain%2Fdocument%2Fuse-case.svg
+* 유즈케이스 다이어그램: https://app.diagrams.net/?src=about#Hsungin95%2Ffastcampus-project-board%2Fmain%2Fdocument%2Fuse-case.svg
 * API Endpoint 구글 시트: [#1](https://github.com/djkeh/fastcampus-project-board/issues/1), https://docs.google.com/spreadsheets/d/1S2FW7_LlePGF95strSYFJEsEQKoyZ9nGHWM8wZgFmSU/edit?usp=sharing
